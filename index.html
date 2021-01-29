@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10b102adea.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <select name="sexe" id="sexe">
+            <option value="Mr">Monsieur</option>
+            <option value="Mme">Madame</option>
+        </select>
+        <label for="nom">Nom: </label>
+        <input type="text" name="nom" id="nom">
+        <label for="prenom">Prenom: </label>
+        <input type="text" name="prenom" id="prenom">
+        <input type="file" name="file">
+        <input type="submit">
+    </form>
+
+</body>
+</html>
